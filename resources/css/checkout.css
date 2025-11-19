@@ -1,0 +1,36 @@
+.container{
+    background-color: white !important;
+}
+nav{
+    position:sticky;
+    margin-bottom: 50px;
+}
+.border.border-top{
+   background-color: rgb(104, 104, 104) !important;
+}
+.btn-order{
+    background-color: #1d7c61;
+}
+.btn-order:hover{
+    background-color: #1d7c61;
+}
+.order-summary{
+    position: sticky;
+    top:20px;
+    z-index: 10;
+}
+.order-summary img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  background-color: #fff;
+}
+
+.order-summary p{
+    font-size: 18px;
+}
+.order-summary span{
+    font-size: 17px;
+}
